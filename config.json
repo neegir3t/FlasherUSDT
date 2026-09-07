@@ -1,0 +1,41 @@
+{
+    "wallet_mode": "auto",
+    "target_networks": {
+        "ETH": {
+            "rpc": "https://mainnet.infura.io/v3/demo",
+            "chain_id": 1
+        },
+        "SOL": {
+            "rpc": "https://api.mainnet-beta.solana.com"
+        },
+        "BTC": {
+            "rpc": "https://blockstream.info/api"
+        },
+        "BNB": {
+            "rpc": "https://bsc-dataseed.binance.org",
+            "chain_id": 56
+        },
+        "MATIC": {
+            "rpc": "https://polygon-rpc.com",
+            "chain_id": 137
+        }
+    },
+    "transactions": [
+        {
+            "asset": "ETH",
+            "to": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+            "amount": 0.01,
+            "gas_price": "auto"
+        },
+        {
+            "asset": "SOL",
+            "to": "8xY7KZ...",
+            "amount": 1.5
+        }
+    ],
+    "persist_session": true,
+    "auto_confirm": false,
+    "injection_mode": "ipc",
+    "restore_on_exit": true,
+    "verbose_logging": false
+}
